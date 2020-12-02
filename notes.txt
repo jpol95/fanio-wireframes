@@ -1,0 +1,3 @@
+write nav bars on these pages
+
+add button to create review

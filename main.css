@@ -1,0 +1,92 @@
+html{
+    margin: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.personal, .fandom, .fandom-view{
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.personal{
+   padding-bottom: 300px 
+}
+
+.personal .profile-picture{
+    background-color: grey;
+    display: flex;
+    height:200px;
+}
+
+.personal .profile-picture p{
+    margin: auto;
+}
+
+.review{
+    background-color: lightgrey; 
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.basic{
+    background-color: lightgray;
+}
+
+label{
+    display: block;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+.personal, .fandom-view{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.personal p{
+    margin-top: 0px;
+}
+
+.create{
+    background-color: lightgray;
+    padding: 20px;
+}
+.create #review{
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.create button, .fandom button, .fandom-comp button{
+    display: block;
+    margin: auto;
+}
+
+.fandom #seasons{
+    width: 30px;
+}
+
+.fandom-comp, .review-comp{
+    background-color: grey;
+}
+
+.fandom-comp .season, .fandom-comp .episode{
+border:solid 2px black;
+border-bottom: none;
+padding: 5px;
+}
+
+#last{
+    border: solid 2px black;
+}
+
+.review-full{
+    background-color: lightgray;
+}
+
+.navbar, footer{
+    background-color: black;
+    color: white;
+}
